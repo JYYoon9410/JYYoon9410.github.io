@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: #555;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: left;
+    color: #ddd;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p i {
+    margin-right: 10px;
+    color: #ccc;
+}
+
+main {
+    width: 70%;
+    padding: 20px;
+    background-color: #444;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.certifications {
+    list-style-type: none;
+    padding-left: 0;
+    color: #bbb;
+}
+
+.certifications li {
+    margin: 5px 0;
+}
+
+.education, .project {
+    margin-top: 10px;
+}
+
+.education h3, .project h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.education p, .project p {
+    margin: 5px 0;
+    color: #bbb;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #666;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
